@@ -1,4 +1,12 @@
-function HomeRoomCard({ name, tag }: { name: string; tag: string | null }) {
+function HomeRoomCard({
+  name,
+  tag,
+  goToRoomId,
+}: {
+  name: string;
+  tag: string | null;
+  goToRoomId: () => void;
+}) {
   const Card = ({ categ, text }: { categ: string; text: string | number }) => {
     return (
       <div className="flex items-center gap-2">
@@ -9,7 +17,10 @@ function HomeRoomCard({ name, tag }: { name: string; tag: string | null }) {
   };
 
   return (
-    <div className=" basis-1/2 min-w-[300px]  max-w-[600px] room-card  rounded-md bg-white flex gap-4 overflow-hidden">
+    <div
+      className=" basis-1/2 min-w-[300px]  max-w-[600px] room-card  rounded-md bg-white flex gap-4 overflow-hidden"
+      onClick={goToRoomId}
+    >
       <img
         src="/images/bedroom.jpg"
         alt="Room"

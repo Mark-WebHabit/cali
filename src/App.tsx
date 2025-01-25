@@ -4,7 +4,7 @@ import Body from "./layouts/Body";
 import Home from "./views/Home";
 import About from "./views/About";
 import Contact from "./views/Contact";
-
+import Room from "./views/Room";
 function App() {
   return (
     <Router>
@@ -15,6 +15,8 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
         </Route>
+
+        <Route path="/room/:id" element={<Room />} />
       </Routes>
     </Router>
   );
