@@ -1,0 +1,23 @@
+@layer base {
+  html {
+    font-size: 16px;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  *::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  * {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  :root {
+    --bg: #dfdada;
+    --pink: #db7070;
+    --choco: #a79898;
+    --brown: #534848;
+  }
+}

@@ -1,0 +1,50 @@
+@layer fonts {
+  .title {
+    font-family: "Irish Grover", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .jura {
+    font-family: "Jura", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  .kurale {
+    font-family: "Kurale", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .karma-light {
+    font-family: "Karma", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .karma-regular {
+    font-family: "Karma", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .karma-medium {
+    font-family: "Karma", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .karma-semibold {
+    font-family: "Karma", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .karma-bold {
+    font-family: "Karma", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
